@@ -1,4 +1,4 @@
-# EMR-Migration
+# EMR Migration AWS
 
 ## Run on EMR
 
@@ -30,9 +30,4 @@ In the Arguments field, enter the following arguments and values:
 --data_source2 s3://my-website-alvisf/Vendor2.csv
 --output_uri s3://athena-dest/emrout
 ```
-
-## Run pySpark locally
-
-```
-python3 vendor_migration_test.py --data_source1 Vendor1.csv --data_source2 Vendor2.csv --output_uri output1
-```
+# aws-emr-migration

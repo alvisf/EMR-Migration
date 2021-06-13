@@ -1,5 +1,0 @@
---data_source1 s3://my-website-alvisf/Vendor1.csv
---data_source2 s3://my-website-alvisf/Vendor2.csv
---output_uri s3://athena-dest/emrout
-
-python3 vendor_migration_test.py --data_source1 Vendor1.csv --data_source2 Vendor2.csv --output_uri output1
